@@ -1,0 +1,28 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/SimpleSpec695045778/And.lo.fir"
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/SimpleSpec695045778"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~And|And>io_out",
+    "sources":[
+      "~And|And>io_a",
+      "~And|And>io_b"
+    ]
+  }
+]
